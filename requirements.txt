@@ -1,0 +1,19 @@
+# https://huggingface.co/Arsalan831/en_Resume_Parser_pipeline/resolve/main/en_Resume_Parser_pipeline-any-py3-none-any.whl
+# https://huggingface.co/Arsalan831/en_JobDesc_pipeline/resolve/main/en_JobDesc_pipeline-any-py3-none-any.whl
+Flask==2.1.0
+spacy
+scikit-learn
+pandas
+opencv-python
+mediapipe
+transformers==4.36.2
+torch==2.1.1
+gunicorn == 20.1.0
+virtualenv==20.25.1
+app
+Werkzeug==2.3.6
+PYPDF2
+flask_cors
+gradientai 
+hugchat
+dotenv
