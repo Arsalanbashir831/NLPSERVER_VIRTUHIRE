@@ -16,4 +16,4 @@ PYPDF2
 flask_cors
 gradientai 
 hugchat
-dotenv
+python-dotenv

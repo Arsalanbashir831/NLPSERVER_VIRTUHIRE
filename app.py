@@ -140,8 +140,8 @@ def extract_questions(response):
 @app.route('/')
 def hello_world():
     secrets = dotenv_values('hf.env')
-    hf_email = secrets['EMAIL']
-    hf_pass = secrets['PASS']
+    hf_email = 'arsalanbashir831@gmail.com'
+    hf_pass = 'Arsalan@382001'
     sign = Login(hf_email, hf_pass)
     cookies = sign.login()
     # Write cookies to file (assuming COOKIE_FILE is defined)
